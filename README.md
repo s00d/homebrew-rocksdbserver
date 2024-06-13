@@ -22,7 +22,6 @@ brew install rocksdb_server
 
 - **Description**: A description of RocksDBFusion
 - **Homepage**: [RocksDBFusion Homepage](https://github.com/s00d/RocksDBFusion)
-- **Version**: 0.1.1
 
 This formula installs the pre-built binaries of RocksDBFusion Server for macOS and Linux.
 
