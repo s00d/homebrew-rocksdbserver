@@ -1,19 +1,19 @@
-# Homebrew Tap for RocksDBFusion
+# Homebrew Tap for RocksDBFusion Server
 
-This repository contains the Homebrew formula for installing RocksDBFusion.
+This repository contains the Homebrew formula for installing RocksDBFusion Server.
 
 ## How to Use
 
 First, you need to tap this repository:
 
 ```sh
-brew tap s00d/rocksdbfusion
+brew tap s00d/rocksdbserver
 ```
 
-Once the repository is tapped, you can install RocksDBFusion with the following command:
+Once the repository is tapped, you can install RocksDBFusion Server with the following command:
 
 ```sh
-brew install rocksdb_fusion
+brew install rocksdb_server
 ```
 
 ## Formula Details
@@ -24,7 +24,7 @@ brew install rocksdb_fusion
 - **Homepage**: [RocksDBFusion Homepage](https://github.com/s00d/RocksDBFusion)
 - **Version**: 0.1.1
 
-This formula installs the pre-built binaries of RocksDBFusion for macOS and Linux.
+This formula installs the pre-built binaries of RocksDBFusion Server for macOS and Linux.
 
 ## Updating the Formula
 
