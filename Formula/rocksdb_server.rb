@@ -1,25 +1,25 @@
 class RocksdbServer < Formula
   desc "RocksDB server is designed to handle database operations over TCP connections"
   homepage "https://github.com/s00d/RocksDBFusion"
-  version "0.3.4"  # Эта версия будет заменена через GitHub Actions
+  version "0.3.5"  # Эта версия будет заменена через GitHub Actions
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/s00d/RocksDBFusion/releases/download/server-v0.3.4/rocksdb_server-Darwin-x86_64.tar.gz"
-      sha256 "0b884ac72811021221e9581e03194935e0f697c7de14f6b8da77ee9cf047f76c"
+      url "https://github.com/s00d/RocksDBFusion/releases/download/server-v0.3.5/rocksdb_server-Darwin-x86_64.tar.gz"
+      sha256 "9cb75e03ce840cb108a1c98f43215f3c9e9e41b245029478e26abc632c4ece38"
     elsif Hardware::CPU.arm?
-      url "https://github.com/s00d/RocksDBFusion/releases/download/server-v0.3.4/rocksdb_server-Darwin-aarch64.tar.gz"
-      sha256 "d5eb70db83121bd40edac153785ca4a287cde558dce59f96bed590bc6a6bca0f"
+      url "https://github.com/s00d/RocksDBFusion/releases/download/server-v0.3.5/rocksdb_server-Darwin-aarch64.tar.gz"
+      sha256 "7dffc84d2440b5267060d5a2957e6fcc4f534496dcdc1167ab7b08f1ad373bd5"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/s00d/RocksDBFusion/releases/download/server-v0.3.4/rocksdb_server-Linux-x86_64-musl.tar.gz"
-      sha256 "9d3801d78e72f2a23b21d4deebb558f572a8566ac6b2a206e47fd381fb7de5e1"
+      url "https://github.com/s00d/RocksDBFusion/releases/download/server-v0.3.5/rocksdb_server-Linux-x86_64-musl.tar.gz"
+      sha256 "70aa05992b533c40747f6b345299a77f26e5da3b0c953f35ffb17504c58a3515"
     elsif Hardware::CPU.arm?
-      url "https://github.com/s00d/RocksDBFusion/releases/download/server-v0.3.4/rocksdb_server-Linux-aarch64-musl.tar.gz"
-      sha256 "f3575e0d6ccd51669c882c8e72c2380cef609c29c0b7de349cf0573c72b037ea"
+      url "https://github.com/s00d/RocksDBFusion/releases/download/server-v0.3.5/rocksdb_server-Linux-aarch64-musl.tar.gz"
+      sha256 "a9b1b6e3faa846c73b72985a19055265e2adddf0f642cdc065ca2880d762f0a4"
     end
   end
 

@@ -1,25 +1,25 @@
 class RocksdbCli < Formula
   desc "RocksDB CLI client for database operations"
   homepage "https://github.com/s00d/RocksDBFusion"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/s00d/RocksDBFusion/releases/download/rocksdb-cli-v0.1.1/rocksdb_cli-Darwin-x86_64.tar.gz"
-      sha256 "b976f311631842fd5c02fca48b47bf6a05a2accf799a9883a03027b781192f5c"
+      url "https://github.com/s00d/RocksDBFusion/releases/download/rocksdb-cli-v0.1.2/rocksdb_cli-Darwin-x86_64.tar.gz"
+      sha256 "2223d9aa1722b4dd6286b1ca561c4ac480358b2ed5ff583029f24732f16f86cf"
     elsif Hardware::CPU.arm?
-      url "https://github.com/s00d/RocksDBFusion/releases/download/rocksdb-cli-v0.1.1/rocksdb_cli-Darwin-aarch64.tar.gz"
-      sha256 "2b74a1a14d25dd08ead931a201c6444e261a1ad9259100c03931b0a412aa65f8"
+      url "https://github.com/s00d/RocksDBFusion/releases/download/rocksdb-cli-v0.1.2/rocksdb_cli-Darwin-aarch64.tar.gz"
+      sha256 "895c23d073e962893ac09a703d34e98ae81c8e7a2eb6a24841ba95a3fa7c5967"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/s00d/RocksDBFusion/releases/download/rocksdb-cli-v0.1.1/rocksdb_cli-Linux-x86_64-musl.tar.gz"
-      sha256 "d337212aa254ef837efee9dc85109ac54ca1ddd75e5c782558c31189c69bfb91"
+      url "https://github.com/s00d/RocksDBFusion/releases/download/rocksdb-cli-v0.1.2/rocksdb_cli-Linux-x86_64-musl.tar.gz"
+      sha256 "612932f5aa48f65b7e8c1d8fe81bbb22d81d27c7b28dffa591afdedcaa4fe8c9"
     elsif Hardware::CPU.arm?
-      url "https://github.com/s00d/RocksDBFusion/releases/download/rocksdb-cli-v0.1.1/rocksdb_cli-Linux-aarch64-musl.tar.gz"
-      sha256 "67bbb9b9ec8a3c8b5727216fdaa2864e13f8bf5032a6018cc95e44165e745f80"
+      url "https://github.com/s00d/RocksDBFusion/releases/download/rocksdb-cli-v0.1.2/rocksdb_cli-Linux-aarch64-musl.tar.gz"
+      sha256 "31837df5b7f6b54ad626109460f0d2357a82182a4a6b5b26164fdfd665c79cb3"
     end
   end
 
