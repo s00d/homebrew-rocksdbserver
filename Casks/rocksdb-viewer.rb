@@ -7,7 +7,7 @@ cask "rocksdb-viewer" do
   end
 
   on_arm do
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    sha256 "48e838ee87716d476328c8f1030662329ae2720756487cb11c5fcc81c48b0d57"
     url "https://github.com/s00d/RocksDBFusion/releases/download/app-v0.0.3/rocksdb-viewer_0.0.3_aarch64.dmg"
   end
 
